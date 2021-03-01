@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "products",
   "info": {
-    "name": "products"
+    "name": "products",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -18,6 +19,12 @@
     },
     "price": {
       "type": "integer"
+    },
+    "quantity": {
+      "type": "string"
+    },
+    "dataPage": {
+      "type": "json"
     }
   }
 }
