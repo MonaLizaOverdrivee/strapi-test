@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "Pages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "PageData": {
+      "type": "json"
+    },
+    "PageName": {
+      "type": "uid",
+      "targetField": "URL"
+    },
+    "URL": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
