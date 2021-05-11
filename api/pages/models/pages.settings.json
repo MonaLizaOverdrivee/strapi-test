@@ -27,6 +27,12 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "users_permissions_users": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "pages",
+      "dominant": true
     }
   }
 }
