@@ -59,9 +59,17 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "pages": {
-      "via": "users_permissions_users",
-      "collection": "pages"
+    "access": {
+      "type": "json"
+    },
+    "last_auth": {
+      "type": "datetime"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
     }
   }
 }
