@@ -16,7 +16,7 @@
       "required": true,
       "unique": true
     },
-    "PageData": {
+    "elements": {
       "type": "json"
     },
     "PageName": {
